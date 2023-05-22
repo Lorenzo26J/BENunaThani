@@ -9,7 +9,7 @@ public class Especialidad {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "tipoEspecialidad", length = 70,nullable = false)
+    @Column(name = "id", length = 70,nullable = false)
     private int id;
     @Column(name = "tipoEspecialidad", length = 50, nullable = false)
     private String tipoEspecialidad;
