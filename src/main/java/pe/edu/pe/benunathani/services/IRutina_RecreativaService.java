@@ -8,4 +8,6 @@ public interface IRutina_RecreativaService {
     void insert(Rutina_Recreativa rutina_recreativa);
 
     List<Rutina_Recreativa> list();
+
+    public void delete(int id);
 }

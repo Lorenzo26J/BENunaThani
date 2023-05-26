@@ -28,4 +28,10 @@ public class Rutina_RecreativaController {
             return m.map(x,Rutina_Recreativa.class);
         }).collect(Collectors.toList());
     }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id")Integer id){
+        rR.delete(id);
+    }
+
 }

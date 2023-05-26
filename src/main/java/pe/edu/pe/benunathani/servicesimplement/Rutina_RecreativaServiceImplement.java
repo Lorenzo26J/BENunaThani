@@ -21,4 +21,9 @@ public class Rutina_RecreativaServiceImplement implements IRutina_RecreativaServ
     public List<Rutina_Recreativa> list(){
         return rR.findAll();
     }
+
+    @Override
+    public void delete(int id) {
+        rR.deleteById(id);
+    }
 }
