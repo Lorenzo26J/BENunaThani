@@ -10,4 +10,6 @@ public interface IRutina_RecreativaService {
     List<Rutina_Recreativa> list();
 
     public void delete(int id);
+
+    public Rutina_Recreativa ListId(int id);
 }
