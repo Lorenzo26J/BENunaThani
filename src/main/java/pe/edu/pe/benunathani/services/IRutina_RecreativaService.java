@@ -12,4 +12,5 @@ public interface IRutina_RecreativaService {
     public void delete(int id);
 
     public Rutina_Recreativa ListId(int id);
+
 }

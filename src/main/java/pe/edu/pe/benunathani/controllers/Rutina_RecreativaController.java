@@ -34,10 +34,4 @@ public class Rutina_RecreativaController {
         rR.delete(id);
     }
 
-    @GetMapping
-    public Rutina_RecreativaDTO ListId(@PathVariable("id")Integer id){
-        ModelMapper m= new ModelMapper();
-        Rutina_RecreativaDTO dtos= m.map(rR.ListId(id),Rutina_RecreativaDTO.class);
-        return dtos;
-    }
 }
